@@ -12,4 +12,4 @@ class Development(Config):
     DEBUG = True
     
     JWT_SECRET_KEY=os.urandom(32)                     #Bizim random sekret keyimiz
-    JWT_ACCESS_TOKEN_EXPIRES=timedelta(minutes=100)   #bitme vaxti
+    JWT_ACCESS_TOKEN_EXPIRES=timedelta(minutes=100)   #bitme vaxti bizim ucun
